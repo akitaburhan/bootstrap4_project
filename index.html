@@ -14,36 +14,107 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#showtimes">Showtimes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#deals">Deals</a>
         </li>
       </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
   </nav>
 
   <div class="container">
-    <div class="jumbotron mt-5">
-      <h1 class="display-4">Welcome to My Sample Bootstrap 4 Website!</h1>
+    <div id="home" class="jumbotron mt-5">
+      <h1 class="display-4">Welcome to My Bootstrap 4 Website!</h1>
       <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
       <hr class="my-4">
       <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
       <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </div>
+
+    <div id="about" class="mt-5">
+      <h2>About</h2>
+      <p>This section is about the website.</p>
+    </div>
+
+    <div id="showtimes" class="mt-5">
+      <h2>Showtimes</h2>
+      <div class="card-deck">
+        <div class="card">
+          <img src="kongskullisland.jpg" class="card-img-top" alt="Kong: Skull Island">
+          <div class="card-body">
+            <h5 class="card-title">Kong: Skull Island</h5>
+            <p class="card-text">A team of scientists explore an uncharted island in the Pacific, venturing into the domain of the mighty Kong, and must fight to escape a primal Eden.</p>
+            <span class="badge badge-info">12:00 p.m.</span>
+            <span class="badge badge-info">1:30 p.m.</span>
+            <span class="badge badge-info">3:00 p.m.</span>
+            <span class="badge badge-info">5:30 p.m.</span>
+            <span class="badge badge-info">7:00 p.m.</span>
+            <span class="badge badge-info">9:30 p.m.</span>
+          </div>
+        </div>
+        <div class="card">
+          <img src="ghostintheshell.jpg" class="card-img-top" alt="Ghost in the Shell">
+          <div class="card-body">
+            <h5 class="card-title">Ghost in the Shell</h5>
+            <p class="card-text">In the near future, Major is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.</p>
+            <span class="badge badge-info">12:00 p.m.</span>
+            <span class="badge badge-info">1:30 p.m.</span>
+            <span class="badge badge-info">3:00 p.m.</span>
+            <span class="badge badge-info">5:30 p.m.</span>
+            <span class="badge badge-info">7:00 p.m.</span>
+            <span class="badge badge-info">9:30 p.m.</span>
+          </div>
+        </div>
+        <div class="card">
+          <img src="beautyandthebeast.jpg" class="card-img-top" alt="Beauty and the Beast">
+          <div class="card-body">
+            <h5 class="card-title">Beauty and the Beast</h5>
+            <p class="card-text">A young woman is imprisoned in an enchanted castle by a beast, who must learn to love and be loved in return to break the spell.</p>
+            <span class="badge badge-info">12:00 p.m.</span>
+            <span class="badge badge-info">1:30 p.m.</span>
+            <span class="badge badge-info">3:00 p.m.</span>
+            <span class="badge badge-info">5:30 p.m.</span>
+            <span class="badge badge-info">7:00 p.m.</span>
+            <span class="badge badge-info">9:30 p.m.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="deals" class="mt-5">
+      <h2>Deals</h2>
+      <p>Check out our latest deals!</p>
+    </div>
+
+    <div id="signup" class="mt-5">
+      <h2>Sign Up for Movie Club</h2>
+      <form>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+      </form>
+    </div>
   </div>
 
-  <footer class="footer bg-light text-center">
+  <footer class="footer bg-light text-center mt-5">
     <div class="container">
-      <span class="text-muted">© 2024 My Sample Website</span>
+      <span class="text-muted">© 2024 Burhan Kilic Website</span>
     </div>
   </footer>
 
